@@ -1,0 +1,12 @@
+<% title = 'Form-Data' %>
+
+    <h1><%= email %></h1>
+    <table>
+        <% for (key in allData) { %>
+            <tr>
+                <td><%= key %></td>
+                <td>:</td>
+                <td><%= allData[key] %></td>
+            </tr>
+        <% } %>
+    </table>
